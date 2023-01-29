@@ -4,7 +4,7 @@ import './App.css';
 
 function Slider() {
     const [person, setPerson] = useState(0);
-    const {id, name, image} = dataSlider[person];
+    const { name, image} = dataSlider[person];
     // console.log([person])
 
     const perviousPerson = () => {

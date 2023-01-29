@@ -11,7 +11,7 @@ function Basket(){
         <div>
         <div className='title-basket'>
             <h5> Basket Subtotal :  {item.length}</h5>
-            {/* <button onClick ={() =>setItem([])}>Delete All</button> */}
+            <button onClick ={() =>setItem([])}>Delete All</button> 
         </div>
         
         </div>

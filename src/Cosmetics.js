@@ -15,7 +15,7 @@ function Cosmetics({allCosmetics}){
     return(
         <div className="product">
             {allCosmetics.map((element => {
-                const {id,productName,description,searchTerm,price,image,showMore} = element;
+                const {id,productName,description,price,image,showMore} = element;
                 
                 return(
                    <div className="product-card" key={id}>
